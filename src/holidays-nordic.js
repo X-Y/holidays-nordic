@@ -1,6 +1,3 @@
-import { getProfileObj } from 'Util/common'
-import i18nFactory from 'Util/i18n'
-
 const lang = {
     sv: {
         'New Year\'s Day': 'Nyårsdagen',
@@ -438,16 +435,4 @@ const isHolidayByCountryTranslated = (dt, country) => {
     }
 }
 
-const i18n = i18nFactory(lang)
-
-//Use getProfileObj to simplify the process of getting the specific translation.
-const getHoliday = (dt) => {
-    //return isHolidayByCountryTranslated(dt, getProfileObj()['country'])
-    const holiday = isHolidayByCountry(dt, getProfileObj()['country'])
-    if(holiday) {
-        return i18n(holiday)
-    }
-    return holiday
-}
-
-export default getHoliday
+export default isHolidayByCountryTranslated
