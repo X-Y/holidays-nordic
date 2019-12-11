@@ -25,6 +25,7 @@ const lang = {
         'General Prayer Day': 'Store bededag',
         'Ascension Day': 'Kristi Himmelfartsdag',
         'Pentecost': 'Pinsedag',
+        'Christmas Eve': 'juleaften',    
         'Christmas Day': 'Juledag',
         'Second Day of Christmas': 'Anden juledag',
         'New Year\'s Eve': 'Nytårsaften'
