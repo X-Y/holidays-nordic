@@ -3,18 +3,18 @@ const lang = {
         'New Year\'s Day': 'Nyårsdagen',
         'Epiphany': 'Trettondedag Jul',
         'Good Friday': 'Långfredagen',
-        'Easter Sunday': 'påskdagen',
+        'Easter Sunday': 'Påskdagen',
         'Easter Monday': 'Annandag påsk',
         'International Workers\' Day': 'Första Maj',
         'Ascension Day': 'Kristi himmelsfärds dag',
-        'Pentecost': 'pingstdagen',
+        'Pentecost': 'Pingstdagen',
         'National Day of Sweden': 'Sveriges nationaldag',
         'Midsummer\'s Day': 'Midsommardagen',
         'All Saints\' Day': 'Alla helgons dag',
-        'Christmas Eve': 'julafton',
+        'Christmas Eve': 'Julafton',
         'Christmas Day': 'Juldagen',
         'Second Day of Christmas': 'Annandag Jul',
-        'New Year\'s Eve': 'nyårsafton'
+        'New Year\'s Eve': 'Nyårsafton'
     },
     da: {
         'New Year\'s Day': 'Nytårsdag',
